@@ -5,11 +5,14 @@
 body {
     /* background-image: url(media/img/bg.avif);
     background-repeat: repeat; */
+    font-family: Helvetica, sans-serif;
 }
 
 input {
     width: 200px;
     height: 25px;
+    border:0;
+    border-bottom: 1px solid gray;
 }
 
 /* selectors */
@@ -46,7 +49,11 @@ input {
 
 /* margin */
 .heading {
+    font-size: 15px;
+    font-weight: lighter;
+    font-style: italic;
     border: 1px solid black;
+    font-variant: small-caps;
     /* margin-left: 20px;
     margin-top: 20px;
     margin-right: 20px;
@@ -59,4 +66,21 @@ input {
     padding-right: 10px;
     padding-bottom: 10px;
     padding-top: 10px; */
+}
+
+.span {
+    display: block;
+}
+
+.div {
+    display: inline;
+}
+
+.btn {
+    border: 0;
+    background-color: green;
+    color: white;
+    padding:3px;
+    margin: 5px;
+    border-radius: 2px;
 }
